@@ -1,0 +1,1 @@
+#Задача 7 True и False. break и continue

@@ -1,0 +1,1 @@
+#Задача 1 True и False. break и continue
