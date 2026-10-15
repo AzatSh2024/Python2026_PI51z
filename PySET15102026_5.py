@@ -1,14 +1,17 @@
 # Множества. Задача 5
 m = int(input())
 library = set()
-for i in range(m):
-    library.add(input())
-
+for _ in range(m):
+    library.add(input().strip())
 
 n = int(input())
-for _ in range(n):
-    book = input()
+results = []
+for i in range(n):
+    book = input().strip()
     if book in library:
-        print("YES")
+        results.append("YES")
     else:
-        print("NO")
+        results.append("NO")
+
+for res in results:
+    print(res)
