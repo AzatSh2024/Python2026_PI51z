@@ -24,4 +24,3 @@ if diff:
     print(result.strip())
 else:
     print("EMPTY")
-
