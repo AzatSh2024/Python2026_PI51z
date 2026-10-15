@@ -16,4 +16,3 @@ for i in range(n):
 
 for recipe in possible_recipes:
     print(recipe)
-
