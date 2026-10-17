@@ -2,5 +2,4 @@
 text = input()
 words = text.split()
 result = words[2::3]
-
 print(' '.join(result))
