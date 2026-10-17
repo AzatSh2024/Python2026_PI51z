@@ -12,4 +12,3 @@ people.sort(reverse=True)
 
 for height, surname in people:
     print(f"{surname} {height}")
-    
