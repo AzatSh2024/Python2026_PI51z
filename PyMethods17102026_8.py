@@ -1,12 +1,10 @@
 # Методы списков и строк. Задача 8
 text = input().lower()
 
-# Считаем количество каждого символа
 freq = {}
 for ch in text:
     freq[ch] = freq.get(ch, 0) + 1
 
-# Ищем символ с максимальной частотой
 max_char = None
 max_count = -1
 
