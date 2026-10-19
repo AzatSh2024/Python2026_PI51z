@@ -10,4 +10,4 @@ for letter in word:
 for letter in word:
     if counts[letter] is not None:
         print(f"{letter}: {counts[letter]}")
-        counts[letter] = None  # чтобы не вывести букву повторно
+        counts[letter] = None
