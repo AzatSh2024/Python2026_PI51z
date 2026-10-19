@@ -3,7 +3,6 @@ text = input()
 result_words = []
 
 for word in text.split():
-    # Преобразуем слово: каждая буква — заглавная, между буквами — дефис
     robot_word = '-'.join(char.upper() for char in word)
     result_words.append(robot_word)
 
