@@ -1,6 +1,7 @@
 # Методы списков и строк. Задача 1
 n = int(input())
 results = []
+
 for i in range(n):
     s = input()
     pos = s.find('кот')
