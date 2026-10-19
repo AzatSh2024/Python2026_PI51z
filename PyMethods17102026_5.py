@@ -1,18 +1,18 @@
 # Методы списков и строк. Задача 5
 n = int(input())
+clean_lines = []
+
 for _ in range(n):
-    line = input()
+    s = input()
     
-    # Ищем позицию символа #
-    hash_pos = line.find('#')
-    
+    hash_pos = s.find('#')
     if hash_pos != -1:
-        # Если # есть — обрезаем строку до него
-        line = line[:hash_pos]
+        s = s[:hash_pos]
     
-    # Убираем пробелы и табуляции в конце строки
-    line = line.rstrip()
+    s = s.rstrip()
     
-    # Выводим строку, только если она не пустая
-    if line:
-        print(line)
+    if s:
+        clean_lines.append(s)
+
+for line in clean_lines:
+    print(line)
